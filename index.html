@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sushi Bar</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <main>
+        <section id="landing-page">
+            <div class="nav-slider">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <header class="title-background">
+                <h2 class="title">Sushi Bar</h2>
+            </header>
+        </section>
+
+        <section class="nav-slider-section">
+            <button class="close-nav-slider">X</button>
+            <section class="nav-links-container">
+                <ul>
+                    <li><a class="nav-links" href="#menu">Menu</a></li>
+                    <li><a class="nav-links" href="#restaurant-info">Restaurant Information</a></li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="menu">
+            <h2 class="menu-title">Menu</h2>
+            <section class="tabs-container">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">Sushi</button>
+                    <button class="tabHeader" data-tab="2">Drinks</button>
+                    <button class="tabHeader" data-tab="3">Appetizers</button>
+                    <button class="tabHeader" data-tab="4">Deserts</button>
+                </section>
+
+                <section id="tabSection-1" class="tabSection show-tab">
+                    <p>1. Spicy Tuna<span class="menu-price">$10.00</span></p>
+                    <p>2. YellowTail<span class="menu-price">$8.00</span></p>
+                    <p>3. California Roll<span class="menu-price">$7.00</span></p>
+                    <p>4. Spicy Salmon<span class="menu-price">$6.00</span></p>
+                </section>
+                <section id="tabSection-2" class="tabSection hide-tab">
+                    <p>1. Martini<span class="menu-price">$10.00</span></p>
+                    <p>2. Sangria<span class="menu-price">$8.00</span></p>
+                    <p>3. Cocktail<span class="menu-price">$7.00</span></p>
+                    <p>4. Bloody Mary<span class="menu-price">$6.00</span></p>
+                </section>
+                <section id="tabSection-3" class="tabSection hide-tab">
+                    <p>1. Calamari<span class="menu-price">$10.00</span></p>
+                    <p>2. Edamame<span class="menu-price">$8.00</span></p>
+                    <p>3. Gyoza<span class="menu-price">$7.00</span></p>
+                    <p>4. Miso Soup<span class="menu-price">$6.00</span></p>
+                </section>
+                <section id="tabSection-4" class="tabSection hide-tab">
+                    <p>1. Brownie Sunday<span class="menu-price">$10.00</span></p>
+                    <p>2. Cheesecake<span class="menu-price">$8.00</span></p>
+                </section>
+            </section>
+        </section>
+
+        <section id="restaurant-info">
+            <section class="info-container">
+                <section class="address-content">
+                    <h2 class="restaurant-info-title">Address</h2>
+                    <p class="address">1234 Restaurant St</p>
+                    <p class="address">Chicago, Illinois</p>
+                </section>
+                <section class="business-hours">
+                    <h2 class="restaurant-info-title">Business Hours</h2>
+                    <p class="hours">Monday-Friday: 9am-3pm</p>
+                    <p class="hours">Saturday-Sunday: 5pm-12am</p>
+                </section>
+                <section class="contact-content">
+                    <h2 class="restaurant-info-title">Pick Up</h2>
+                    <p class="phone">Call Us: 123-321-1234</p>
+                </section>
+            </section>
+            
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="tabs.js"></script>
+</body>
+</html>
